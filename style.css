@@ -9,8 +9,6 @@ body{
     height: 100vh;
 }
 
-.header-title-container {}
-
 main{
     height: 55%;
     display: flex;
@@ -28,6 +26,11 @@ main{
                         'c d';
     border: 1px solid black;
 
+}
+.card-pos-a, .card-pos-b, .card-pos-c,.card-pos-d{
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .card-pos-a{
     grid-area: a;
